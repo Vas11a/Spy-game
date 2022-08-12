@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Orelega One', cursive;
+}
+
+body{
+	padding: 10px;
+	background-color: #33FF00;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.container {
+	widows: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	gap: 20px;
+}
+
+.title {
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	color: #115006;
+	position: relative;
+}
+
+.cheat{
+	position: absolute;
+	top: 20px;
+	left: -40px;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	/*opacity: 0;*/
+}
+
+.cheatAlert{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+	height: 70px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+	border: 5px solid #0F4D00;
+	background-color: #20A100;
+	border-radius : 20px;
+	transition-duration: .5s;
+	visibility: hidden;
+	opacity:0;
+}
+
+.cheatAdd{
+	visibility: visible;
+	opacity: 1;
+}
+
+.block_form {
+	margin: 0 auto;
+}
+
+h3{
+	padding-top: 25px;
+	font-size: 35px;
+	color: #051A00;
+}
+
+input{
+	padding: 5px;
+	border-radius: 20px;
+	font-size: 30px;
+	outline: none;
+	border: 5px solid #0F4D00;
+ 	width: 130px;
+ 	background-color: #20A100;
+}
+
+.start{
+	width: 100%;
+	height: 50px;
+	border: 5px solid #0F4D00;
+	background-color: #20A100;
+	margin-top: 20px;
+	border-radius: 20px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+.card {
+	margin-top: 30px;
+	width: 300px;
+	height: 450px;
+	border-radius: 20px;
+	border: 5px solid #0F4D00;
+	background-color: #20A100;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-weight: bold;
+	transition-duration: .7s;
+}
+
+.next, .startStop,.restart{
+	width: 170px;
+	height: 60px;
+	border: 5px solid #0F4D00;
+	background-color: #20A100;
+	border-radius : 20px;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.addCard{
+	transition-duration: .7s;
+	transform: rotateY(180deg);
+	background-color: orange;
+}
+
+.insideCard{
+	transform: rotateY(180deg);
+}
+
+
+
+.block-timer {
+	border: 5px solid #0F4D00;
+	background-color: #20A100;
+	border-radius : 20px;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	padding: 5px;
+}
+
+.gameStop{
+	font-size: 40px;
+}
+
+.spyImg{
+	width: 240px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 380px) {
+	h3{
+		font-size: 25px;
+	}
+	.card {
+		width: 250px;
+		height: 350px;
+	}
+	.block-timer{
+		width: 300px;
+	}
+	.spyImg{
+		width: 200px;
+		height: 160px;
+	}
+}
