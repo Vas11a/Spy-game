@@ -134,6 +134,8 @@ input{
 
 .insideCard{
 	transform: rotateY(180deg);
+	width: 300px;
+	word-wrap: break-word;
 }
 
 
@@ -177,5 +179,8 @@ input{
 	.spyImg{
 		width: 200px;
 		height: 160px;
+	}
+	.insideCard{
+		width: 250px;
 	}
 }
