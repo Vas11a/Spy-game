@@ -37,7 +37,7 @@ body{
 	width: 30px;
 	height: 30px;
 	background-color: red;
-	/*opacity: 0;*/
+	opacity: 0;
 }
 
 .cheatAlert{
